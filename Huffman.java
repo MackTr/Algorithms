@@ -271,7 +271,7 @@ public class Huffman {
 		Huffman list = new Huffman();
 		
 		try {
-			sc = new Scanner(new FileInputStream("C:\\Users\\Mackenzie\\eclipse-workspace\\COMP 352 ASSIGN 3\\Jabberwock.txt"));
+			sc = new Scanner(new FileInputStream("Jabberwock.txt"));
 		}
 		catch(FileNotFoundException e) {
 			System.out.println("File not Found");
